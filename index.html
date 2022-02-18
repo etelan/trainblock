@@ -33,8 +33,7 @@
     <a href="docs/devlog.html">Developer Log</a>
     <a href="docs/about.html">About</a>
     <div class="dropdown">
-        <button class="dropbtn">🇬🇧 &#11167
-            <i class="fa fa-caret-down"></i>
+        <button class="dropbtn">🇬🇧<i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
             <a href="index-fr.html">🇫🇷</a>
@@ -56,15 +55,16 @@
 <div class="form" style="width: 300px; height: 400px;">
 
     <!-- Train finder -->
-    <form action="file:///C:/Users/adam/Downloads/download_1/index.html"
+    <form action="http://82.10.152.195:666/findTrainByName" method="get"
           style="  display: inline-block; vertical-align: middle;
         font-family: 'Trebuchet MS', sans-serif;
         width:100%">
 
-        <label for="train_name" style="margin-left: 5%; color: white; width:5%"> Train </label>
+        <input type="hidden" name="passHash" value="abe6db4c9f5484fae8d79f2e868a673c">
+        <label for="name" style="margin-left: 5%; color: white; width:5%"> Train </label>
         <input type="text"
-               name="train_name"
-               id="train_name" required
+               name="name"
+               id="name" required
                placeholder="Trainy_McTrainFace"
                style="width:65%; font-size:15px; padding:8px; border-radius:7px">
 
@@ -130,7 +130,8 @@
     <br><br>
 
     <!-- All Trains -->
-    <form action="file:///C:/Users/adam/Downloads/download_1/index.html">
+    <form action="http://82.10.152.195:666/showAll" method="get">
+        <input type="hidden" name="passHash" value="abe6db4c9f5484fae8d79f2e868a673c">
         <input type="submit" class="button-5" role="button" value="Show All Routes"
                style="display: block; margin-left: auto; margin-right: auto;">
         </input>
