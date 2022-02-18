@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
-
 <head>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Trainblock</title>
     <link rel="ICON" href="https://i.imgur.com/5rJTcje.png" />
 </head>
 
 <div class="header">
     <div class="headerContent">
-        En cas d'invasion de zombies à bord du train, veuillez attendre la prochaine gare pour déclencher l'alarme d'urgence.
+        In the event of a zombie invasion boarding the train, please wait until the next station to pull the emergancy
+        alarm.
     </div>
 </div>
 
@@ -19,23 +20,83 @@
                 image-rendering: auto;
                 image-rendering: crisp-edges;
                 image-rendering: pixelated;"/>
-    <a class="active" href="#home">Trainline Site</a>
+    <a class="active" href="https://www.thetrainline.com/">Trainline Site</a>
     <a href="contact.html">Contact</a>
-    <a href="devlog.html">Journal du Développeur</a>
-    <a href="about.html">À Propos</a>
-    <div class="dropdown">
-        <button class="dropbtn">🇫🇷 &#11167
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="index.html">🇬🇧</a>
-            <a href="#">🇩🇪</a>
-            <a href="#">🇺🇦</a>
-        </div>
-    </div>
+    <a href="devlog.html">Developer Log</a>
+    <a href="about.html">About</a>
 
 </div>
 <body>
-UNDER CONSTRUCTION - about :D
+    <!-- Image of Villager -->
+    <div style="height: 550px; width:100%; overflow: hidden; position: absolute; z-index: -1;">
+        <img style="top: -10%; width:100%; z-index: -1; height:500px; min-width:1410px; overflow:hidden "
+             src="https://i.imgur.com/vkfbOXQ.jpeg"
+             alt="Villager in a coat">
+    </div>
+    <h1 style="margin-left:20%; margin-top:20%; display: inline-block; vertical-align: middle;
+            font-family: 'Trebuchet MS', sans-serif; font-size: 60px; color:white;"> About us</h1>
+
+
+    <!--Who am I-->
+    <div style="width:100%; margin-top:5%; margin-bottom:3%; height:auto; text-align: center;
+        font-family: 'Trebuchet MS', sans-serif; font-size: 20px; background:#f2f4f4;">
+
+        <h1 style="padding-top:5%; color:black; font-weight:bold; font-size: 40px; padding-top:2%; "> Who are you</h1>
+
+        <p style=" margin-top:2%; color:#3A3B3C;">Alexis Baker</p>
+        <p style=" margin-top:1%; color:#3A3B3C;">She/Her</p>
+        <p style=" margin-top:1%; color:#3A3B3C;">Software Development Apprentice at Google</p>
+        <br>
+        <hr class="bluedots">
+        <br>
+        <a href="https://www.linkedin.com/in/alexis-baker-10624719a/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/etelan" class="fa fa-github"></a>
+        <a href="https://twitter.com/AlexisGameJams" class="fa fa-twitter"></a>
+        <a href="mailto:trainblock@alexisbaker.uk" class="fa fa-google"></a>
+
+        <br><br><br>
+    </div>
+
+    <!--About this project-->
+    <div style="width:100%; margin-top:3%; margin-bottom:3%; height:auto; text-align: center;
+        font-family: 'Trebuchet MS', sans-serif; font-size: 20px; background:#f2f4f4;">
+
+        <h1 style="padding-top:5%; color:black; font-weight:bold; font-size: 40px; padding-top:2%; "> About this project</h1>
+
+        <p style=" margin-top:2%; color:#3A3B3C;">Here is a little video showing in the simplest terms how this works.</p>
+        <p style=" margin-top:1%; color:#3A3B3C;">[VIDEO]</p>
+
+        <h1 style="padding-top:5%; color:black; font-weight:bold; font-size: 40px; padding-top:2%; "> My Code </h1>
+        <p style=" margin-top:1%; color:#3A3B3C;">Station Code (ip redacted): <a href="https://pastebin.com/WWVeb5Z3"> Pastebin</a></p>
+        <p style=" margin-top:1%; color:#3A3B3C;">Frontend Repository: <a href="https://github.com/etelan/TrainBlock-Site">GitHub</a> </p>
+        <p style=" margin-top:1%; color:#3A3B3C;">Backend Repository: <a href="https://github.com/etelan/TrainBlock-Springboot-with-Database">GitHub</a> </p>
+
+        <p style=" margin-top:1%; color:#3A3B3C; font-weight:bold;">High Level Project Logic</p>
+
+        <br>
+        <img src="https://i.imgur.com/HeM6USC.png" alt="Station Logic">
+        <h1 style="padding-top:5%; color:black; font-weight:bold; font-size: 40px; padding-top:2%; "> External Libraries and Mods </h1>
+
+        <p style=" margin-top:1%; color:#3A3B3C; font-weight:bold; font-size: 25px; ">Backend </p>
+        <p style=" margin-top:1%; color:#3A3B3C;">Backend Framework: <a href="https://spring.io/projects/spring-boot">Spring Boot</a> </p>
+        <p style=" margin-top:1%; color:#3A3B3C;">Database: <a href="https://www.postgresql.org/">PostgreSQL</a> </p>
+        <p style=" margin-top:1%; color:#3A3B3C;">Backend Language: <a href="https://en.wikipedia.org/wiki/Java">Java</a> </p>
+
+        <br><br>
+        <p style=" margin-top:1%; color:#3A3B3C; font-weight:bold; font-size: 25px; ">Front End </p>
+        <p style=" margin-top:1%; color:#3A3B3C;"><a href="https://pages.github.com/">Github Pages</a> </p>
+        <p style=" margin-top:1%; color:#3A3B3C;">Simple html, css stylesheets, and a bit of javascript to fetch from the api (if it is online). </p>
+
+        <br><br>
+        <p style=" margin-top:1%; color:#3A3B3C; font-weight:bold; font-size: 25px; ">Minecraft </p>
+        <p style=" margin-top:1%; color:#3A3B3C;">Third Party Minecraft Coding Mod: <a href="https://ocdoc.cil.li/"> OpenComputers </a> </p>
+        <p style=" margin-top:1%; color:#3A3B3C;">OpenComputers Programming Language: <a href="http://www.lua.org/"> LUA </a> </p>
+        <p style=" margin-top:1%; color:#3A3B3C;">Third Party Minecraft Train Mod: <a href="https://github.com/TeamOpenIndustry/ImmersiveRailroading/wiki/Open-Computers"> Integration with Opencomputers </a> </p>
+
+
+
+        <br>
+
+        <br><br><br>
+    </div>
 </body>
-</html>
