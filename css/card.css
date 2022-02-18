@@ -1,0 +1,21 @@
+.centerCards {
+  margin-top: 50px;
+  width:100%
+
+}
+
+.centerInCard {
+  display: table;
+  margin: 0 auto;
+  }
+
+.extraCards {
+  font-family: 'Trebuchet MS', sans-serif;
+  display: table;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 15px;
+  background: #808080;
+  padding: 20px;
+  z-index: 0;
+}
