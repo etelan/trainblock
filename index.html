@@ -30,7 +30,7 @@
                 image-rendering: pixelated;"/>
     <a class="active" href="https://www.thetrainline.com/">Trainline Site</a>
     <a href="docs/contact.html">Contact</a>
-    <a href="docs/devlog.html">Developer Log</a>
+    <a href="docs/serverstatus.html">Server Status</a>
     <a href="docs/about.html">About</a>
     <div class="dropdown">
         <button class="dropbtn">🇬🇧<i class="fa fa-caret-down"></i>
@@ -55,12 +55,11 @@
 <div class="form" style="width: 300px; height: 400px;">
 
     <!-- Train finder -->
-    <form action="http://82.10.152.195:666/findTrainByName" method="get"
+    <form action="https://alexisbaker.uk/TrainBlock-Site/docs/serverOneChecker.html" method="get"
           style="  display: inline-block; vertical-align: middle;
         font-family: 'Trebuchet MS', sans-serif;
         width:100%">
 
-        <input type="hidden" name="passHash" value="abe6db4c9f5484fae8d79f2e868a673c">
         <label for="name" style="margin-left: 5%; color: white; width:5%"> Train </label>
         <input type="text"
                name="name"
@@ -130,11 +129,9 @@
     <br><br>
 
     <!-- All Trains -->
-    <form action="http://82.10.152.195:666/showAll" method="get">
-        <input type="hidden" name="passHash" value="abe6db4c9f5484fae8d79f2e868a673c">
+    <form action="https://alexisbaker.uk/TrainBlock-Site/docs/serverAllChecker.html" method="get">
         <input type="submit" class="button-5" role="button" value="Show All Routes"
                style="display: block; margin-left: auto; margin-right: auto;">
-        </input>
     </form>
 </div>
 
