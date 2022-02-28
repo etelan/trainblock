@@ -27,19 +27,22 @@
   <a href="contact.html">Contact</a>
   <a href="devlog.html">Developer Log</a>
   <a href="about.html">About</a>
-
 </div>
+
+<img id="duck" src="http://82.10.152.195:666/images/etelan.gif" onerror="myErrorHandling()" onload="mySuccessHandling()">
 
 <body>
 <script>
-  const Http = new XMLHttpRequest();
-  const url='http://82.10.152.195:666/showAll?passHash=abe6db4c9f5484fae8d79f2e868a673c';
-  Http.open("GET", url);
-  Http.send();
 
-Http.onreadystatechange = (e) => {
-  console.log(Http.responseText)
-}
+  function myErrorHandling() {
+    window.location.replace("http://www.w3schools.com");
+    alert("image error");
+  }
+
+  function mySuccessHandling() {
+    alert("image good");
+  }
+
 </script>
 
 
