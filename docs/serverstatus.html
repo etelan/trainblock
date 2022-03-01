@@ -29,6 +29,30 @@
   <a href="about.html">About</a>
 </div>
 
+<img id="loading" src="https://metro.co.uk/wp-content/uploads/2015/10/withouttxt_tube.gif" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;">
+
+<br><br><br><br><br>
+
+<script>
+  setTimeout(function() {
+     var titleElement = document.getElementById("loadingTitle");
+     titleElement.innerHTML = "Server probably down. Redirecting..."
+     titleElement.value = titleElement.innerHTML
+  },5000);
+</script>
+
+<h1 id="loadingTitle" style="width:100%; text-align:center; font-family: 'Courier New', monospace; font-size:92px;"> Loading <span style="color:red;">Loading</span> Loading... </h1>
+
+
+<script>
+  setTimeout(function() {
+    window.location.replace("https://alexisbaker.uk/TrainBlock-Site/docs/serverdown.html");
+  },6500);
+</script>
+
 <img id="duck" src="http://82.10.152.195:666/images/etelan.gif" onerror="myErrorHandling()" onload="mySuccessHandling()">
 
 <body>
